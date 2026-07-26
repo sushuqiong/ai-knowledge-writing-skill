@@ -1,0 +1,39 @@
+<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="520" fill="#F8FAFC"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2E8F0" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="blue" x1="110" y1="94" x2="470" y2="418" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="520" fill="url(#grid)" opacity="0.55"/>
+  <rect x="82" y="70" width="1236" height="380" rx="30" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="124" y="112" width="360" height="296" rx="24" fill="url(#blue)"/>
+  <g stroke="#DBEAFE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M178 318H424"/>
+    <path d="M178 242H342"/>
+    <path d="M178 166H288"/>
+    <path d="M330 166L424 242L330 318"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" font-weight="800">
+    <text x="164" y="370" fill="#EFF6FF" font-size="25">Route first</text>
+    <text x="164" y="398" fill="#D1FAE5" font-size="25">write safely</text>
+  </g>
+  <text x="540" y="154" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">AI Knowledge</text>
+  <text x="540" y="210" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">Writing Skill</text>
+  <text x="544" y="254" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="24">Learn sources, route tasks, write public explainers.</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
+    <rect x="544" y="298" width="160" height="62" rx="16" fill="#DBEAFE" stroke="#93C5FD"/>
+    <text x="582" y="337" fill="#1D4ED8">concept</text>
+    <rect x="728" y="298" width="150" height="62" rx="16" fill="#DCFCE7" stroke="#86EFAC"/>
+    <text x="772" y="337" fill="#166534">source</text>
+    <rect x="902" y="298" width="152" height="62" rx="16" fill="#FEF3C7" stroke="#FCD34D"/>
+    <text x="944" y="337" fill="#92400E">writing</text>
+    <rect x="1078" y="298" width="142" height="62" rx="16" fill="#FCE7F3" stroke="#F9A8D4"/>
+    <text x="1120" y="337" fill="#9D174D">review</text>
+  </g>
+  <text x="544" y="405" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="20">Privacy-aware and originality-safe workflow for public knowledge writing.</text>
+</svg>

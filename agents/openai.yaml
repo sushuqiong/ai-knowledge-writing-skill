@@ -1,0 +1,5 @@
+interface:
+  display_name: "AI Knowledge Writing"
+  short_description: "Route learning into public explainers"
+  default_prompt: "Use $ai-knowledge-writing-skill to turn [source] into a clear beginner-friendly explainer with fact, originality, and privacy checks."
+
