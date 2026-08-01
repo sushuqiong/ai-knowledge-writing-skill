@@ -2,34 +2,31 @@
 
 Use this lane when the prompt is vague, risky, privacy-sensitive, or likely to benefit from one sharply targeted question.
 
-## Trigger
+## Best for
 
-- the request could mean more than one thing
-- a hidden assumption would change the output
-- the task might leak private details
-- the claim is weak, speculative, or time-sensitive
+- unclear requests
+- privacy-sensitive prompts
+- claims that may be weak or time-sensitive
+- requests where one missing detail would change the answer
 
-## What to do
+## Typical input
 
-- identify the one missing detail that matters most
-- ask the minimum number of questions needed to move forward
-- state safe assumptions when a full question is not necessary
-- separate facts, inference, and uncertainty
-- stop unsupported claims from slipping into the output
+- a prompt with hidden assumptions
+- a request that might leak private details
+- a task that needs one small clarifying question
 
-## Default output
+## Typical output
 
 - what is unclear
 - what is risky
 - what can be assumed safely
 - the smallest next question or next action
 
-## Common mistakes
+## Do not use it for
 
 - asking too many broad questions
 - turning uncertainty into confidence
 - asking for details that do not change the artifact
-- overlooking privacy risk because the request sounds simple
 
 ## Privacy boundary
 

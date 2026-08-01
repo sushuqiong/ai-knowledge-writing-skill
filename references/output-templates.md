@@ -2,6 +2,22 @@
 
 Use these templates when the user asks for a concrete artifact.
 
+## Route Brief Template
+
+**Task**: `[task]`
+
+**Primary lane**: `[browser / visualize / sites / queue / precision]`
+
+**Why this lane**
+
+**What is known**
+
+**What is uncertain**
+
+**What to do next**
+
+**Privacy notes**
+
 ## Learning Summary Template
 
 **Topic**: `[topic]`

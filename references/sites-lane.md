@@ -2,22 +2,20 @@
 
 Use this lane when the task is about a README, static site, GitHub Pages page, demo page, or another public-facing web surface.
 
-## Trigger
+## Best for
 
-- the user wants a repository homepage or product-style landing page
-- the user wants GitHub Pages or a static demo page
-- the user wants a navigation surface for skills, routes, or docs
-- the output must be browsable, not just written text
+- repository homepages
+- static demo pages
+- GitHub Pages surfaces
+- documentation pages with a clear primary action
 
-## What to do
+## Typical input
 
-- define the site purpose and the primary action
-- decide the page structure before writing copy
-- keep the page scannable and route-first
-- make links obvious for README, release, demo, and source docs
-- keep the implementation static unless a dynamic feature is truly needed
+- a repo that needs a better homepage
+- a public surface that should explain itself quickly
+- a site brief that must stay static
 
-## Default output
+## Typical output
 
 - page map
 - content blocks
@@ -25,12 +23,11 @@ Use this lane when the task is about a README, static site, GitHub Pages page, d
 - publish checklist
 - privacy review for public text and metadata
 
-## Common mistakes
+## Do not use it for
 
-- turning a utility page into marketing filler
-- hiding the real workflow behind decorative copy
-- exposing private paths, screenshots, or machine-specific content
-- building a complex frontend when a static page is enough
+- decorative marketing filler with no task value
+- complex frontend work when a static page is enough
+- hiding the workflow behind vague copy
 
 ## Privacy boundary
 

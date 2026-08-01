@@ -24,7 +24,7 @@
   </g>
   <text x="540" y="154" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">AI Knowledge</text>
   <text x="540" y="210" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">Workbench</text>
-  <text x="544" y="254" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="24">Five lanes for reading, visuals, sites, queues, and precision.</text>
+  <text x="544" y="254" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="24">Learn, visualize, publish, queue, and refine with privacy-safe routing.</text>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
     <rect x="544" y="298" width="118" height="62" rx="16" fill="#DBEAFE" stroke="#93C5FD"/>
     <text x="563" y="337" fill="#1D4ED8">browser</text>

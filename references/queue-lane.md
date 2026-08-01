@@ -2,33 +2,30 @@
 
 Use this lane when the request contains several tasks, needs prioritization, or requires inserting an urgent item into an existing plan.
 
-## Trigger
+## Best for
 
-- multiple files or outputs are requested
-- the user asks for "step by step" execution
-- one task depends on another
-- the user wants queueing, priority, or handoff rules
+- step-by-step execution
+- ordered delivery of multiple outputs
+- dependency management
+- urgent insertions into an existing workflow
 
-## What to do
+## Typical input
 
-- split the work into clear steps
-- mark the current step, the next step, and anything blocked
-- keep dependencies explicit
-- insert urgent tasks without losing already completed work
-- avoid parallel work when one step must finish first
+- a task list
+- a mixed request with several deliverables
+- a plan that needs sorting or reordering
 
-## Default output
+## Typical output
 
 - ordered queue
 - status for each item
 - what is blocked and why
 - what can be done immediately
 
-## Common mistakes
+## Do not use it for
 
-- mixing plan updates with final output
 - hiding dependency order
-- skipping a small urgent fix because it is not "part of the main task"
+- skipping a small urgent fix because it is not part of the main task
 - restarting the whole queue when only one lane changed
 
 ## Privacy boundary

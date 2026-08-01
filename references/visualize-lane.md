@@ -2,35 +2,31 @@
 
 Use this lane when the user wants the idea turned into a chart, flow, diagram, comparison, or visual summary.
 
-## Trigger
+## Best for
 
-- the user asks for a picture of the logic
-- the user wants a Mermaid diagram, SVG, figure, or flow chart
-- the user needs a side-by-side comparison or a process map
-- the text is too dense and would be easier to scan visually
+- Mermaid diagrams, SVGs, charts, tables, and process maps
+- side-by-side comparisons
+- dense content that is easier to scan visually
 
-## What to do
+## Typical input
 
-- identify the main message that the visual must carry
-- choose the smallest visual form that explains the idea
-- define blocks, arrows, labels, and emphasis
-- keep wording short and readable inside the visual
-- match the visual style to the audience and topic
+- a topic, workflow, or data summary
+- a process that needs structure
+- a comparison that needs clearer labels
 
-## Default output
+## Typical output
 
 - visual goal
 - layout plan
 - label list
-- color or emphasis guidance
+- emphasis or color guidance
 - export target such as Mermaid, SVG, or slide
 
-## Common mistakes
+## Do not use it for
 
-- trying to show too many ideas in one figure
-- putting long paragraphs inside a diagram
-- using style for decoration instead of explanation
-- mixing data, process, and summary without a clear hierarchy
+- long paragraphs inside a figure
+- too many ideas in one visual
+- decoration that does not explain anything
 
 ## Privacy boundary
 

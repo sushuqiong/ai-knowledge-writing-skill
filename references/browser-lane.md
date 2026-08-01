@@ -2,34 +2,31 @@
 
 Use this lane when the task depends on a source, a current web fact, a screenshot, a diagram, or a page that must be checked before writing.
 
-## Trigger
+## Best for
 
-- a document, image, screenshot, transcript, paper, or page is provided
-- the user asks "what is this" and the answer depends on the material
-- the claim may have changed recently
-- the user wants a safe public summary from source material
+- documents, screenshots, pages, papers, and transcripts
+- "what is this?" questions that depend on the provided material
+- facts that may have changed recently
+- public summaries that must stay faithful to the source
 
-## What to do
+## Typical input
 
-- identify the source type and what is visibly present
-- separate direct evidence from inference
-- verify any current or public fact that is not directly shown
-- rewrite the meaning in plain language instead of copying labels or sentence order
-- note any private details that must not be published
+- a PDF, Word file, image, screenshot, or webpage
+- source text copied into the prompt
+- a claim that needs current verification
 
-## Default output
+## Typical output
 
 - source inventory
 - fact / inference / needs-verification split
 - short beginner-friendly summary
 - caveats and privacy notes
 
-## Common mistakes
+## Do not use it for
 
-- treating a screenshot as if it were a full specification
-- copying labels, command lists, or headings line by line
-- overstating what the source proves
-- skipping verification when the claim is time-sensitive
+- retyping command lists line by line
+- copying labels, slogans, or headings from the source
+- treating a screenshot as if it were the full specification
 
 ## Privacy boundary
 
