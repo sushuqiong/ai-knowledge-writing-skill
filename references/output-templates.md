@@ -17,6 +17,88 @@ Use these templates when the user asks for a concrete artifact.
 
 **Beginner takeaway**
 
+## Browser Notes Template
+
+**Source type**: `[page / screenshot / paper / file]`
+
+**What is directly shown**
+
+**What can be inferred**
+
+**What needs verification**
+
+**What should not be copied**
+
+**Safe public explanation**
+
+## Visual Brief Template
+
+**Topic**: `[topic]`
+
+**Audience**: `[audience]`
+
+**Visual goal**: `[diagram / chart / flow / comparison / map]`
+
+**Core message**
+
+**Layout**
+- Top:
+- Middle:
+- Bottom:
+
+**Labels to include**
+
+**Colors or emphasis**
+
+**Export target**: `[Mermaid / SVG / slide / image / table]`
+
+## Site Brief Template
+
+**Site goal**: `[README / demo / landing page / docs page / GitHub Pages]`
+
+**Primary action**
+
+**Sections**
+- Hero:
+- Navigation:
+- Content blocks:
+- Footer:
+
+**Reusable copy**
+
+**Privacy notes**
+
+**Publish checklist**
+
+## Queue Template
+
+**Primary task**
+
+**Queued tasks**
+1. `[task]`
+2. `[task]`
+3. `[task]`
+
+**Dependencies**
+
+**Urgent insertions**
+
+**Done first**
+
+**Done later**
+
+## Precision Check Template
+
+**What is unclear**
+
+**What is risky**
+
+**What can be safely assumed**
+
+**Minimum questions**
+
+**Safe next step**
+
 ## Public Article Template
 
 # `[plain title]`
@@ -65,4 +147,3 @@ Opening: why this matters to the reader.
 **Copied or too-close wording risks**
 
 **Suggested safe replacement**
-

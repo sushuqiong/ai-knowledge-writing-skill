@@ -1,101 +1,108 @@
 <p align="center">
-  <img src="assets/repo-cover.svg" alt="AI Knowledge Writing Skill cover" width="100%" />
+  <img src="assets/repo-cover.svg" alt="AI Knowledge Workbench cover" width="100%" />
 </p>
 
-<h1 align="center">AI Knowledge Writing Skill</h1>
+<h1 align="center">AI Knowledge Workbench</h1>
 
 <p align="center">
-  <b>A route-first Codex skill for learning technical material and turning it into public explainers.</b>
+  <b>五功能知识工作台：browser / visualize / sites / queue / precision</b>
 </p>
 
 <p align="center">
   <img alt="Codex Skill" src="https://img.shields.io/badge/Codex-Skill-2563EB?style=for-the-badge">
-  <img alt="Knowledge Writing" src="https://img.shields.io/badge/Knowledge-Writing-0F766E?style=for-the-badge">
-  <img alt="License" src="https://img.shields.io/badge/License-MIT-F59E0B?style=for-the-badge">
+  <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-Demo-0F766E?style=for-the-badge">
+  <img alt="Privacy Safe" src="https://img.shields.io/badge/Privacy-safe-F59E0B?style=for-the-badge">
+  <img alt="Release" src="https://img.shields.io/badge/Release-v0.2.0-7C3AED?style=for-the-badge">
 </p>
 
-## Why This Exists
+## What This Is
 
-People often use AI in two separate ways: first to learn something, then to turn that knowledge into an article, note, script, or public explanation. The hard part is not only writing. The hard part is choosing the right route, checking what is true, avoiding copied wording, and removing private details before publishing.
+This repository turns a repeatable knowledge workflow into a route-first Codex skill, a public GitHub repo, and a static demo page.
 
-`ai-knowledge-writing-skill` is a reusable route-first skill for that workflow. It helps Codex move from messy source material to a clear next artifact: a concept explanation, source summary, WeChat-style article, output template, or privacy review.
+It is built for tasks that need to:
 
-## Four-Lane Workbench
+- read or verify sources before writing
+- turn ideas into diagrams or visual summaries
+- publish a clean static site or README surface
+- split work into an ordered queue
+- ask only the minimum clarifying questions
 
-| Lane | Best for | Typical output |
+## Five Lanes
+
+| Lane | What it does | Typical output |
 |---|---|---|
-| `concept-lane` | unfamiliar terms, tools, workflows, or beginner learning | plain-language concept map and short explainer |
-| `source-lane` | documents, images, screenshots, diagrams, transcripts, papers | fact/inference split, key points, caveats |
-| `writing-lane` | public articles, WeChat/公众号 drafts, learning notes | title, outline, polished copy, takeaway |
-| `review-lane` | publishing checks, privacy review, originality checks | risk notes, redactions, uncertainty boundaries |
+| `browser-lane` | read a source and verify public facts | source map, fact / inference split, safe summary |
+| `visualize-lane` | turn ideas into charts or diagrams | visual brief, layout, labels, export target |
+| `sites-lane` | build or improve public site surfaces | page map, content blocks, publish checklist |
+| `queue-lane` | split and prioritize work | task queue, dependency order, insertion notes |
+| `precision-lane` | remove ambiguity and risk | minimal questions, safe assumptions, caveats |
 
 ```mermaid
 flowchart LR
-  A["Topic, file, image, paper, or draft"] --> B{"Route first"}
-  B --> C["concept-lane<br/>understand the idea"]
-  B --> D["source-lane<br/>read and verify source"]
-  B --> E["writing-lane<br/>turn into public copy"]
-  B --> F["review-lane<br/>privacy + originality"]
-  C --> G["Reader-ready artifact"]
-  D --> G
-  E --> G
-  F --> G
+  A["Topic, source, page, or task list"] --> B{"Choose a lane"}
+  B --> C["browser-lane"]
+  B --> D["visualize-lane"]
+  B --> E["sites-lane"]
+  B --> F["queue-lane"]
+  B --> G["precision-lane"]
+  C --> H["reader-ready artifact"]
+  D --> H
+  E --> H
+  F --> H
+  G --> H
 ```
+
+## Demo Page
+
+Open the static demo page on GitHub Pages:
+
+**[Live demo](https://sushuqiong.github.io/ai-knowledge-writing-skill/)**
+
+It shows:
+
+- one card per lane
+- example prompts you can copy
+- privacy reminders
+- quick links to the repo and release
 
 ## Quick Start
 
-Copy this repository folder into your Codex skills directory, or copy `SKILL.md`, `agents/`, `references/`, and `assets/` into a skill folder named:
+Use this skill in Codex:
 
 ```text
-ai-knowledge-writing-skill
-```
-
-Then ask Codex:
-
-```text
-Use $ai-knowledge-writing-skill to explain [topic] for beginners and give me a public article outline.
+Use $ai-knowledge-writing-skill to route [task] into the right lane and keep the output privacy-safe.
 ```
 
 ```text
-Use $ai-knowledge-writing-skill to interpret [source] and turn it into a concise WeChat-style explainer.
+Use $ai-knowledge-writing-skill to read [source] and turn it into a beginner-friendly public explainer.
 ```
 
 ```text
-Use $ai-knowledge-writing-skill to review this draft for unsupported claims, copied wording, and privacy risks.
+Use $ai-knowledge-writing-skill to build a static demo page for [topic] and keep it publishable.
 ```
 
-## What Makes It Different
-
-- It starts with routing, not immediate writing.
-- It separates facts, inference, uncertainty, and public-facing wording.
-- It treats learning, source interpretation, writing, and review as connected but distinct lanes.
-- It includes privacy and originality checks before public output.
-- It is generic enough for AI, computing, biomedical, research, tool-learning, and workflow-explanation tasks.
-
-## Repository Contents
+## Repository Structure
 
 | Path | Purpose |
 |---|---|
-| `SKILL.md` | Main Codex skill instructions and trigger logic |
-| `agents/openai.yaml` | Skill UI metadata |
-| `references/routing.md` | Route selection and minimal questions |
-| `references/source-reading.md` | Source interpretation and fact-boundary rules |
-| `references/public-writing.md` | Public explainer and WeChat-style writing rules |
-| `references/output-templates.md` | Reusable templates for learning, writing, and review |
-| `references/privacy-originality.md` | Privacy, originality, and publishing safety rules |
-| `assets/repo-cover.svg` | Original repository cover image |
+| `SKILL.md` | main Codex skill entry |
+| `agents/openai.yaml` | skill UI metadata |
+| `references/*.md` | route guides, lane rules, templates, privacy notes |
+| `docs/index.html` | static demo page for GitHub Pages |
+| `assets/repo-cover.svg` | repository cover image |
 
-## Privacy and Originality
+## Privacy Rules
 
-This skill is designed for public-facing knowledge work. Do not publish local file paths, credentials, private URLs, account identifiers, unpublished data, private screenshots, or personal details. Use placeholders such as `[source]`, `[topic]`, `[document]`, `[dataset]`, or `[repository]` when examples are needed.
+Public examples use placeholders only. Do not publish local file paths, account names, emails, tokens, private URLs, hidden screenshots, or machine-specific traces.
 
-The workflow is inspired by route-first navigation. All wording, lane names, examples, and skill instructions in this repository are original and intentionally generic.
+When in doubt, treat the detail as private and rewrite it into a generic placeholder.
 
-## Suggested Topics
+## Release
 
-`codex-skill` | `knowledge-workflow` | `public-writing` | `wechat-writing` | `ai-learning` | `technical-writing` | `privacy-review` | `source-reading`
+First public trial release: **[v0.2.0](https://github.com/sushuqiong/ai-knowledge-writing-skill/releases/tag/v0.2.0)**  
+Earlier trial release: **[v0.1.0](https://github.com/sushuqiong/ai-knowledge-writing-skill/releases/tag/v0.1.0)**
 
-## License
+## Topics
 
-MIT
+`ai-learning` `codex` `github-pages` `knowledge-workflow` `privacy-review` `prompt-routing` `public-writing` `route-first` `skill` `technical-writing` `wechat-writing`
 

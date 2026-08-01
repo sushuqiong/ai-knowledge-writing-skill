@@ -23,17 +23,19 @@
     <text x="164" y="398" fill="#D1FAE5" font-size="25">write safely</text>
   </g>
   <text x="540" y="154" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">AI Knowledge</text>
-  <text x="540" y="210" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">Writing Skill</text>
-  <text x="544" y="254" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="24">Learn sources, route tasks, write public explainers.</text>
+  <text x="540" y="210" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">Workbench</text>
+  <text x="544" y="254" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="24">Five lanes for reading, visuals, sites, queues, and precision.</text>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
-    <rect x="544" y="298" width="160" height="62" rx="16" fill="#DBEAFE" stroke="#93C5FD"/>
-    <text x="582" y="337" fill="#1D4ED8">concept</text>
-    <rect x="728" y="298" width="150" height="62" rx="16" fill="#DCFCE7" stroke="#86EFAC"/>
-    <text x="772" y="337" fill="#166534">source</text>
-    <rect x="902" y="298" width="152" height="62" rx="16" fill="#FEF3C7" stroke="#FCD34D"/>
-    <text x="944" y="337" fill="#92400E">writing</text>
-    <rect x="1078" y="298" width="142" height="62" rx="16" fill="#FCE7F3" stroke="#F9A8D4"/>
-    <text x="1120" y="337" fill="#9D174D">review</text>
+    <rect x="544" y="298" width="118" height="62" rx="16" fill="#DBEAFE" stroke="#93C5FD"/>
+    <text x="563" y="337" fill="#1D4ED8">browser</text>
+    <rect x="678" y="298" width="132" height="62" rx="16" fill="#DCFCE7" stroke="#86EFAC"/>
+    <text x="698" y="337" fill="#166534">visualize</text>
+    <rect x="826" y="298" width="104" height="62" rx="16" fill="#EDE9FE" stroke="#C4B5FD"/>
+    <text x="851" y="337" fill="#6D28D9">sites</text>
+    <rect x="946" y="298" width="98" height="62" rx="16" fill="#FEF3C7" stroke="#FCD34D"/>
+    <text x="963" y="337" fill="#92400E">queue</text>
+    <rect x="1060" y="298" width="124" height="62" rx="16" fill="#FCE7F3" stroke="#F9A8D4"/>
+    <text x="1078" y="337" fill="#9D174D">precision</text>
   </g>
-  <text x="544" y="405" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="20">Privacy-aware and originality-safe workflow for public knowledge writing.</text>
+  <text x="544" y="405" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="20">Privacy-aware and originality-safe workflow for public knowledge work.</text>
 </svg>
