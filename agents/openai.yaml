@@ -1,4 +1,4 @@
 interface:
-  display_name: "AI Knowledge Workbench"
-  short_description: "Five-function routing for learning, visuals, sites, queues, and precision"
-  default_prompt: "Use $ai-knowledge-writing-skill to route [task] into the correct lane, verify facts when needed, and keep the output privacy-safe and original."
+  display_name: "AI Knowledge Writing"
+  short_description: "Source-aware public writing with verified DOCX delivery"
+  default_prompt: "Use $ai-knowledge-writing-skill to turn [topic or source] into an original public explainer for [audience], verify changing claims, and audit the final artifact for privacy."

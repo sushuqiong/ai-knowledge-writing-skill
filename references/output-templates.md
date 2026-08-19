@@ -131,6 +131,24 @@ Opening: why this matters to the reader.
 
 ## One-sentence takeaway
 
+## Article Input Contract
+
+**Topic**: `[topic]`
+
+**Audience**: `[audience]`
+
+**Purpose**: `[learn / compare / decide / introduce]`
+
+**Length**: `[minimum]-[maximum]` non-whitespace body characters
+
+**Tone**: `[plain / lively / professional]`
+
+**Output**: `[text / DOCX / Markdown / page]`
+
+**Source status**: `[supplied / current verification needed / no source]`
+
+**Acceptance**: required concepts, file location if any, and checks to run
+
 ## Source Interpretation Template
 
 **Source type**: `[source type]`
@@ -153,6 +171,9 @@ Opening: why this matters to the reader.
 - File opens successfully.
 - No private local paths or credentials in public-facing text.
 - Source wording has been rewritten into an original structure.
+- Body count excludes title, subtitle, disclaimer, and sources.
+- Author and last-modified-by metadata are empty.
+- The generated DOCX has been reopened and inspected.
 
 ## Privacy Review Template
 

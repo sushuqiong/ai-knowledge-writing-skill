@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "claim": "[claim]",
+      "state": "supported",
+      "source": "[source]",
+      "scope": "[scope]",
+      "freshness": "[date or version]",
+      "notes": "[limits]"
+    }
+  ]
+}

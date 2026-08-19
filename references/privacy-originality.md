@@ -47,3 +47,10 @@ Use generic placeholders:
 - Avoid turning correlation, association, or AI-generated patterns into causal claims.
 - For biomedical or clinical content, keep it as education or research support, not diagnosis or treatment advice.
 - Before creating a public repository or Pages site, scan for private file paths, emails, tokens, and machine names one more time.
+
+## DOCX Checks
+
+- Inspect core properties for author, last modifier, comments, and organization.
+- Inspect visible text and hyperlinks for paths, private URLs, and identifiers.
+- Do not embed the source attachment, screenshot, or image by default.
+- Reopen the archive after generation; a successful save is not a privacy check.

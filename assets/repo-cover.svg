@@ -1,41 +1,19 @@
-<svg width="1400" height="520" viewBox="0 0 1400 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1400" height="520" fill="#F8FAFC"/>
-  <defs>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#E2E8F0" stroke-width="1"/>
-    </pattern>
-    <linearGradient id="blue" x1="110" y1="94" x2="470" y2="418" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2563EB"/>
-      <stop offset="1" stop-color="#0F766E"/>
-    </linearGradient>
-  </defs>
-  <rect width="1400" height="520" fill="url(#grid)" opacity="0.55"/>
-  <rect x="82" y="70" width="1236" height="380" rx="30" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
-  <rect x="124" y="112" width="360" height="296" rx="24" fill="url(#blue)"/>
-  <g stroke="#DBEAFE" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M178 318H424"/>
-    <path d="M178 242H342"/>
-    <path d="M178 166H288"/>
-    <path d="M330 166L424 242L330 318"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">AI Knowledge Writing Skill</title>
+  <desc id="desc">Seven verified writing stages connected across a clean documentation cover.</desc>
+  <rect width="1400" height="520" fill="#f4f7f5"/>
+  <rect x="72" y="62" width="1256" height="396" rx="8" fill="#ffffff" stroke="#ccd7d2" stroke-width="2"/>
+  <text x="120" y="145" fill="#0f766e" font-family="Arial, sans-serif" font-size="24" font-weight="700">SOURCE-AWARE · ORIGINAL · PRIVACY-SAFE</text>
+  <text x="120" y="220" fill="#172321" font-family="Arial, sans-serif" font-size="58" font-weight="800">AI Knowledge Writing</text>
+  <text x="120" y="272" fill="#5f6d69" font-family="Arial, sans-serif" font-size="25">From source reading to verified DOCX delivery</text>
+  <path d="M150 350H1250" stroke="#9eb3ac" stroke-width="4"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g transform="translate(150 350)"><circle r="27" fill="#0f766e"/><text y="6" fill="white" font-size="18" font-weight="700">1</text><text y="54" fill="#172321" font-size="15">Frame</text></g>
+    <g transform="translate(333 350)"><circle r="27" fill="#315f8a"/><text y="6" fill="white" font-size="18" font-weight="700">2</text><text y="54" fill="#172321" font-size="15">Read</text></g>
+    <g transform="translate(516 350)"><circle r="27" fill="#b7791f"/><text y="6" fill="white" font-size="18" font-weight="700">3</text><text y="54" fill="#172321" font-size="15">Verify</text></g>
+    <g transform="translate(699 350)"><circle r="27" fill="#c85d4a"/><text y="6" fill="white" font-size="18" font-weight="700">4</text><text y="54" fill="#172321" font-size="15">Structure</text></g>
+    <g transform="translate(882 350)"><circle r="27" fill="#0f766e"/><text y="6" fill="white" font-size="18" font-weight="700">5</text><text y="54" fill="#172321" font-size="15">Draft</text></g>
+    <g transform="translate(1065 350)"><circle r="27" fill="#315f8a"/><text y="6" fill="white" font-size="18" font-weight="700">6</text><text y="54" fill="#172321" font-size="15">Deliver</text></g>
+    <g transform="translate(1250 350)"><circle r="27" fill="#c85d4a"/><text y="6" fill="white" font-size="18" font-weight="700">7</text><text y="54" fill="#172321" font-size="15">Audit</text></g>
   </g>
-  <g font-family="Segoe UI, Arial, sans-serif" font-weight="800">
-    <text x="164" y="370" fill="#EFF6FF" font-size="25">Route first</text>
-    <text x="164" y="398" fill="#D1FAE5" font-size="25">write safely</text>
-  </g>
-  <text x="540" y="154" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">AI Knowledge</text>
-  <text x="540" y="210" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="800">Workbench</text>
-  <text x="544" y="254" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="24">Learn, visualize, publish, queue, and refine with privacy-safe routing.</text>
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">
-    <rect x="544" y="298" width="118" height="62" rx="16" fill="#DBEAFE" stroke="#93C5FD"/>
-    <text x="563" y="337" fill="#1D4ED8">browser</text>
-    <rect x="678" y="298" width="132" height="62" rx="16" fill="#DCFCE7" stroke="#86EFAC"/>
-    <text x="698" y="337" fill="#166534">visualize</text>
-    <rect x="826" y="298" width="104" height="62" rx="16" fill="#EDE9FE" stroke="#C4B5FD"/>
-    <text x="851" y="337" fill="#6D28D9">sites</text>
-    <rect x="946" y="298" width="98" height="62" rx="16" fill="#FEF3C7" stroke="#FCD34D"/>
-    <text x="963" y="337" fill="#92400E">queue</text>
-    <rect x="1060" y="298" width="124" height="62" rx="16" fill="#FCE7F3" stroke="#F9A8D4"/>
-    <text x="1078" y="337" fill="#9D174D">precision</text>
-  </g>
-  <text x="544" y="405" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="20">Privacy-aware and originality-safe workflow for public knowledge work.</text>
 </svg>

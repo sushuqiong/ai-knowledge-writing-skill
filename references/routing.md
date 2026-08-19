@@ -1,6 +1,7 @@
 # Routing Guide
 
-Use this file to choose the smallest useful lane before writing, visualizing, building, or publishing.
+Use this file to choose the smallest useful lane before writing, visualizing,
+building, or publishing. Public writing composes lanes; it is not a sixth lane.
 
 ## Lane Table
 
@@ -19,7 +20,23 @@ Use this file to choose the smallest useful lane before writing, visualizing, bu
 - If the user asks for a repo page, demo page, or public surface, start with `sites-lane`.
 - If the user gives multiple requests, start with `queue-lane`.
 - If the request is unclear, risky, or likely to leak private information, start with `precision-lane`.
-- If the task mixes source reading and public writing, use `browser-lane -> precision-lane -> sites-lane` as needed.
+- If the task mixes source reading and public writing, use
+  `browser-lane -> precision-lane -> DOCX or sites-lane` as needed.
+- Use `visualize-lane` only when a visual is requested or materially improves
+  the explanation.
+- Use `queue-lane` when several articles or artifacts have dependencies; a
+  single article normally does not need it.
+
+## Writing recipe selection
+
+| Request shape | Primary recipe |
+| --- | --- |
+| explain a concept, workflow, or method | `concept-explainer` |
+| interpret an attachment, image, or document | `source-to-article` |
+| medicine, public health, law, finance, or safety | `high-risk-health` plus domain review |
+| compare products, prices, or current capabilities | `product-comparison` |
+| explain a fixed list item by item | `glossary-list` |
+| create and verify a Word file | `docx-delivery` |
 
 ## Minimal Clarifying Questions
 
